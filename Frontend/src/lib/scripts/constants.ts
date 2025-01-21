@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://tatnikbot.tatnikhost.net"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://tatnikbot-backend.tatnikhost.net"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://distord.tatnik.host"
 
 export function get(path: string) {
